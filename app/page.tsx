@@ -8,7 +8,7 @@ import "./globals.css"
 
 export default function Home() {
     return (
-        <div className={"container flex-auto mix-blend-hard-light justify-items-center text-center text-pretty mx-auto p-8 min-w-full min-h-screen subpixel-antialiased"}>
+        <div className={"container flex-auto justify-items-center text-center text-pretty mx-auto p-8 min-w-full min-h-screen subpixel-antialiased"}>
             <Flex>
                 <a href={"https://v2.chakra-ui.com"} target={"_blank"}><Image src={ckui} alt={"Chakra UI"} width={220} height={50}/></a>
                 <a href={"https://tailwindcss.com"} target={"_blank"}><Image src={tw} alt={"Tailwind CSS"} width={75} height={50} className={"rounded-3xl ml-6 mt-1.5"}/></a>
@@ -18,7 +18,7 @@ export default function Home() {
             <h1 className={"mt-3 text-violet-600 font-light text-wrap mix-blend-hard-light"}><strong
                 className={"text-6xl"}>This is a very basic tutorial of <span
                 className={"text-amber-500"}>Chakra UI</span></strong></h1>
-            <p className={"mt-3 text-3xl text-emerald-500 text-pretty mix-blend-hard-light"}>You can use the <span className={"text-indigo-300"}>{`<Card></Card>`}</span> tag to template the card first, then the <span className={"text-indigo-200"}>{`<CardHeader>`}</span><span className={"text-indigo-300"}>{`</CardHeader>`}</span> with <span className={"text-sky-400"}>{`<Heading></Heading>`}</span> for the header of the card.</p>
+            <p className={"mt-3 text-3xl text-emerald-500 text-pretty mix-blend-hard-light"}>You can use the <span className={"text-indigo-300"}>{`<Card></Card>`}</span> tag to template the card first, then the <span className={"text-violet-400 mix-blend-lighten"}>{`<CardHeader>`}</span><span className={"text-indigo-300"}>{`</CardHeader>`}</span> with <span className={"text-sky-400"}>{`<Heading></Heading>`}</span> for the header of the card.</p>
             <p className={"mt-3 text-3xl text-emerald-500 mix-blend-hard-light"}>You can then use the <span className={"text-fuchsia-300"}>{`<CardBody></CardBody>`} </span>to elaborate on your card's header. <span className={"text-fuchsia-300"}>{`<CardFooter></CardFooter>`}</span> for any buttons that you want to implement.</p>
             <p className={"mt-3 text-2xl mix-blend-hard-light text-emerald-300 mb-3 text-center"}>Here's an example</p>
             <div className={"container flex mx-auto text-lg justify-center"}>
