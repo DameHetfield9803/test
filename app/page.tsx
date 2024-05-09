@@ -48,16 +48,12 @@ export default function Home() {
                             <p className={"text-pretty text-gray-300 py-2 ml-6"}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </CardBody>
                         <CardFooter>
-                            <Button variant={'solid'} className={"flex bg-teal-500 mix-blend-hard-light ml-6 rounded-md mt-7 w-36 h-12"}>
-                                <script src="app/button.js"></script>Press me 👀
-                            </Button>
-                            <button
-                                className="btn bg-blue-700 rounded-md w-36 h-12 mt-7 ml-3"
+                            <Button variant={'solid'} className={"flex bg-teal-500 mix-blend-hard-light ml-6 rounded-md mt-7 w-36 h-12"}
                                 onClick={() => {
                                     setShowConfetti(!showConfetti)
                                 }}>
-                                Confetti
-                            </button>
+                                Press me 👀
+                            </Button>
                         </CardFooter>
                     </Stack>
                 </Card>
